@@ -4,6 +4,7 @@
 Writes the funniest one-line review of the agent's own Monday to
 /output/entry.txt: a single line, under 200 characters, nothing else.
 Deterministic: the same bytes on every run.
+Reviser note: docstring-only touch-up; the entry line is unchanged.
 """
 
 import os
